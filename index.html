@@ -5,112 +5,132 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Freebie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Шапка -->
-    <header>
-      <nav>
+    <header class="header">
+      <nav class="nav">
         <a href="#" lang="en" class="logo-link">Logo</a>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="">About Us</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Blogs</a></li>
+        <ul class="list">
+          <li><a href="./index.html" class="nav-link">Home</a></li>
+          <li><a href="" class="nav-link">About Us</a></li>
+          <li><a href="" class="nav-link">Services</a></li>
+          <li><a href="" class="nav-link">Blogs</a></li>
         </ul>
       </nav>
-      <a href="">Gift Finder</a>
+      <a href="" class="header-link">Gift Finder</a>
     </header>
     <main>
-      <section>
-        <h1>Find a gift for your wife or girlfriend</h1>
-        <p>Struggling to find a gift for your wife or girlfriend? No problem!</p>
-        <a href="#">Find gift now</a>
+      <!-- Section Hero -->
+      <section class="hero">
+        <h1 class="hero-title">Find a gift for your wife or girlfriend</h1>
+        <p class="hero-text">Struggling to find a gift for your wife or girlfriend? No problem!</p>
+        <a href="#" class="hero-link">Find gift now</a>
         <img src="./image/img1.jpeg" alt="Couple" width="719" height="700" />
       </section>
-      <section>
+      <section class="work">
         <img src="./image/img2.jpeg" alt="Card Thanks" width="733" height="618" />
-        <h2>How we work</h2>
-        <p>
+        <h2 class="work-title">How we work</h2>
+        <p class="work-text">
           We’ve actually already asked hundreds of women what they want, and made a database with
           the results. All you have to do is take our short survey that only takes seconds, and our
           proprietary algorithm will match you with a few perfect gift options.
         </p>
-        <a href="#">Learn More</a>
+        <a href="#" class="work-link">Learn More</a>
       </section>
-      <section>
-        <h2>Gifts for all Occasions</h2>
-        <p>“Try our web app to find the best gifts for all occasions”</p>
-        <ul>
+      <!-- Section Gallery -->
+      <section class="gallery">
+        <h2 class="gallery-title">Gifts for all Occasions</h2>
+        <p class="gallery-text">“Try our web app to find the best gifts for all occasions”</p>
+        <ul class="list">
           <li></li>
           <img src="./image/img3.jpeg" alt="Balloon" width="270" height="270" />
-          <h3>Birthday</h3>
-          <details><summary>See More &#10095;</summary></details>
+          <h3 class="list-title">Birthday</h3>
+          <details class="more"><summary>See More &#10095;</summary></details>
           <li></li>
           <img src="./image/img4.jpeg" alt="Shoes and flowers" width="270" height="270" />
-          <h3>Anniversary</h3>
-          <details><summary>See More &#10095;</summary></details>
+          <h3 class="list-title">Anniversary</h3>
+          <details class="more"><summary>See More &#10095;</summary></details>
           <li></li>
           <img src="./image/img5.jpeg" alt="Three cards" width="270" height="270" />
-          <h3>Valentine's Day</h3>
-          <details><summary>See More &#10095;</summary></details>
+          <h3 class="list-title">Valentine's Day</h3>
+          <details class="more"><summary>See More &#10095;</summary></details>
           <li></li>
           <img src="./image/img6.jpeg" alt="Christmas tree" width="270" height="270" />
-          <h3>Christmas</h3>
-          <details><summary>See More &#10095;</summary></details>
+          <h3 class="list-title">Christmas</h3>
+          <details class="more"><summary>See More &#10095;</summary></details>
         </ul>
       </section>
-      <section>
-        <h2>Ready to get started?</h2>
-        <p>Sign up or contact us</p>
-        <a href="#">Find gift now</a>
-        <a href="#">how it works</a>
+      <!-- Section Links -->
+      <section class="content">
+        <h2 class="content-title">Ready to get started?</h2>
+        <p class="content-text">Sign up or contact us</p>
+        <ul class="list">
+          <li><a href="#" class="content-link-primary">Find gift now</a></li>
+          <li><a href="#" class="content-link-secondary">how it works</a></li>
+        </ul>
       </section>
-      <section>
-        <h2>Our Best Blogs Ever</h2>
-        <p>“Try our blog to find the best tips and tricks to select your gift”</p>
+      <section class="section">
+        <h2 class="section-title">Our Best Blogs Ever</h2>
+        <p class="section-text">
+          “Try our blog to find the best tips and tricks to select your gift”
+        </p>
       </section>
-      <section>
+      <section class="last">
         <img src="./image/img7.jpeg" alt="Happy couple smiling" width="400" height="370" />
-        <h2>Mr. John Doe</h2>
-        <p>The best way to wish your wife</p>
-        <a href="#">Read More</a>
-        <ul>
+        <h2 class="last-title">Mr. John Doe</h2>
+        <p class="last-text">The best way to wish your wife</p>
+        <a href="#" class="last-link">Read More</a>
+        <ul class="list">
           <li>
-            <h3>Database to find the gifts for your girlfriend</h3>
-            <p>
+            <h3 class="last-headline">Database to find the gifts for your girlfriend</h3>
+            <p class="headline-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore...
             </p>
-            <a href="#">Read More</a>
+            <a href="#" class="headline-link">Read More</a>
           </li>
           <li>
-            <h3>How Artificial Intelligence read your mind to find the best gift</h3>
-            <p>
+            <h3 class="last-headline">
+              How Artificial Intelligence read your mind to find the best gift
+            </h3>
+            <p class="headline-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore...
             </p>
-            <a href="#">Read More</a>
+            <a href="#" class="headline-link">Read More</a>
           </li>
         </ul>
       </section>
     </main>
+    <!-- Footer -->
     <footer>
-      <section>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="">About Us</a></li>
+      <section class="footer">
+        <ul class="list">
+          <li><a href="./index.html" class="footer-link">Home</a></li>
+          <li><a href="" class="footer-link">About Us</a></li>
           <li><a href="#" lang="en" class="footer-logo-link">Logo</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Blogs</a></li>
+          <li><a href="" class="footer-link">Services</a></li>
+          <li><a href="" class="footer-link">Blogs</a></li>
         </ul>
       </section>
-      <section>
-        <ul>
-          <li><a href="https://www.facebook.com/">Facebook</a></li>
-          <li><a href="https://twitter.com/">Twitter</a></li>
-          <li><a href="https://www.instagram.com/">Instagram</a></li>
-          <li><a href="https://www.youtube.com/">Youtube</a></li>
-          <li><a href="https://www.pinterest.com/">Pinterest</a></li>
+      <!-- Networks -->
+      <section class="network">
+        <ul class="list">
+          <li><a href="https://www.facebook.com/" class="network-link">Facebook</a></li>
+          <li><a href="https://twitter.com/" class="network-link">Twitter</a></li>
+          <li><a href="https://www.instagram.com/" class="network-link">Instagram</a></li>
+          <li><a href="https://www.youtube.com/" class="network-link">Youtube</a></li>
+          <li><a href="https://www.pinterest.com/" class="network-link">Pinterest</a></li>
         </ul>
         <p>&#169; 2010 — 2020 Privacy — Terms</p>
       </section>
